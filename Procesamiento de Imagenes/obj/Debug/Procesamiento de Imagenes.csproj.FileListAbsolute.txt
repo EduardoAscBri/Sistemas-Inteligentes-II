@@ -1,0 +1,14 @@
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\bin\Debug\Procesamiento de Imagenes.exe.config
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\bin\Debug\Procesamiento de Imagenes.exe
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\bin\Debug\Procesamiento de Imagenes.pdb
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento de Imagenes.csprojAssemblyReference.cache
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.FormMenu.resources
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.EscalaDeGrises.resources
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Properties.Resources.resources
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento de Imagenes.csproj.GenerateResource.cache
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento de Imagenes.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento de Imagenes.exe
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento de Imagenes.pdb
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.Histograma.resources
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.LBP.resources
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.Binarizacion.resources
