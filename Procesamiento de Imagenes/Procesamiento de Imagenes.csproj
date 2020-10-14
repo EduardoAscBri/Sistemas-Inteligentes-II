@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Canny.cs" />
+    <Compile Include="Classes\Otsu.cs" />
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +61,12 @@
     </Compile>
     <Compile Include="Forms\Binarizacion.Designer.cs">
       <DependentUpon>Binarizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Umbralizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Umbralizacion.Designer.cs">
+      <DependentUpon>Umbralizacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\LBP.cs">
       <SubType>Form</SubType>
@@ -83,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Binarizacion.resx">
       <DependentUpon>Binarizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Umbralizacion.resx">
+      <DependentUpon>Umbralizacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LBP.resx">
       <DependentUpon>LBP.cs</DependentUpon>
@@ -115,8 +128,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

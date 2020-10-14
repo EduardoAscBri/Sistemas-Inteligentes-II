@@ -12,3 +12,4 @@ C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes
 C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.Histograma.resources
 C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.LBP.resources
 C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.Binarizacion.resources
+C:\Users\Eduardo\source\repos\Sistemas Inteligentes II\Procesamiento de Imagenes\obj\Debug\Procesamiento_de_Imagenes.Forms.Umbralizacion.resources

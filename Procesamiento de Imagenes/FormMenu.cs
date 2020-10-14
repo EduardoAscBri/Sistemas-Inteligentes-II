@@ -53,5 +53,17 @@ namespace Procesamiento_de_Imagenes
             Binarizacion binarizacion = new Binarizacion();
             binarizacion.Show();
         }
+
+        private void bttOtsu_Click(object sender, EventArgs e)
+        {
+            Umbralizacion umbralizacion = new Umbralizacion(1);
+            umbralizacion.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Umbralizacion umbralizacion = new Umbralizacion(2);
+            umbralizacion.Show();
+        }
     }
 }

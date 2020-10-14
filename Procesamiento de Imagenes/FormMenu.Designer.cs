@@ -38,6 +38,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.bttBinarizacion = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.bttOtsu = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttPromedio
@@ -136,11 +139,43 @@
             this.bttBinarizacion.UseVisualStyleBackColor = true;
             this.bttBinarizacion.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(22, 176);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 13);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Umbralización";
+            // 
+            // bttOtsu
+            // 
+            this.bttOtsu.Location = new System.Drawing.Point(25, 192);
+            this.bttOtsu.Name = "bttOtsu";
+            this.bttOtsu.Size = new System.Drawing.Size(75, 23);
+            this.bttOtsu.TabIndex = 11;
+            this.bttOtsu.Text = "Otsu";
+            this.bttOtsu.UseVisualStyleBackColor = true;
+            this.bttOtsu.Click += new System.EventHandler(this.bttOtsu_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(25, 221);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Canny";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 151);
+            this.ClientSize = new System.Drawing.Size(532, 287);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.bttOtsu);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.bttBinarizacion);
             this.Controls.Add(this.label3);
@@ -170,6 +205,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button bttBinarizacion;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button bttOtsu;
+        private System.Windows.Forms.Button button3;
     }
 }
 
